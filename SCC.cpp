@@ -3,9 +3,10 @@
 #include<utility>
 #include<algorithm>
 using namespace std;
+vector<int> adj[100'001];
 vector<int> s;
-int p[100001];
-bool fix[100001];
+int p[100'001];
+bool fix[100'001];
 int ind=1;
 int DFS(int x){
     p[x]=ind;
